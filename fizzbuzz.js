@@ -1,4 +1,4 @@
-$("document").ready( function() {
+$(document).ready(function() {
 	var spoken;
 	var word;
 	for (var i = 1; i <= 100; i++) {
@@ -16,4 +16,5 @@ $("document").ready( function() {
 			word += i;
 		}
 		$("body").append("<p>" + word + "</p>");
+	}
 });
